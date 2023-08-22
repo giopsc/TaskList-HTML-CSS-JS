@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <script src="./js/script.js" defer></script>
+        <title>Lista de Tarefas</title>
+    </head>
+    <body>
+        <div id="painel">
+            <header>
+                <h1>Lista de Tarefas</h1>
+            </header>
+            <section class="formulario">
+                <form action="#" method="get" onsubmit="return false">
+                    <div class="campoFormulario">
+                        <label for="idTarefa">Descrição</label>
+                        <input type="text" name="nmTarefa" id="idTarefa" maxlength="30">
+                    </div>
+                    <div class="campoFormulario">
+                        <label for="idAutor">Autor</label>
+                        <input type="text" name="nmAutor" id="idAutor" maxlength="30"> 
+                    </div>
+                    <div class="campoFormulario">
+                        <label for="idDpto">Departamento</label>
+                        <input type="text" name="nmDpto" id="idDpto" maxlength="20"> 
+                    </div>
+                    <div class="campoFormulario">
+                        <label for="idImportancia">Importância</label>
+                        <select id="idImportancia">
+                            <option value="1">1</option>
+                            <option value="2">2</option>   
+                            <option value="3">3</option>  
+                        </select>
+                    </div>
+                    <div id="inserir">
+                        <button>Adicionar Tarefa</button>
+                    </div>
+                </form>
+            </section>
+            <section class="tabela">    
+                <h2>Tarefas</h2>
+                <table>
+                    <thead></thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+            <section id="botoesOrdenacao">    
+                <button id="listarPrioridade">Mostrar apenas prioridade</button>
+                <button onclick="atualizaTabela()">Mostrar todos os campos</button>
+            </section>
+        </div>
+            <footer>
+                
+            </footer>
+    </body>
+</html>

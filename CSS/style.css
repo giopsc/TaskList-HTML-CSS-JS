@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+  font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;  
+}
+
+body {
+  padding: 5% 15%;
+  background: linear-gradient(to right, #ddd6f3, #faaca8);
+}
+
+#painel {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  padding: 5% 5%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 230%;
+  color: #3D314A;
+  font: 200;
+}
+
+.formulario {
+  display: block;
+  margin: 5% 0%;
+}
+
+.formulario label {
+  margin: 0px 10px;
+  font-size: 150%;
+}
+
+.campoFormulario {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.campoFormulario input {
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: #3D314A 1px outset;
+}
+
+.campoFormulario input:disabled {
+  border: #3D314A 1px outset;
+}
+
+.campoFormulario select {
+  border: #3D314A 1px outset;
+  width: 8%;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+#inserir {
+  display: flex;
+  justify-content: center;
+}
+
+#inserir button {
+  font-size: 130%;
+  padding: 5px 10px;
+  background-color: #1F0322;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#inserir button:hover {
+  background-color: rgba(44, 3, 42, 0.533);
+}
+
+.tabela h2 {
+  font-size: 190%;
+  color: #3D314A;
+}
+
+.tabela thead th {
+  font-size: 150%;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabela tbody tr {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tabela tbody td {
+  text-align: center;
+  padding: 10px;
+}
+
+.tabela tbody td button {
+  background-color: #1F0322;
+  color: #ffffff;
+  width: 100px;
+  border-radius: 10px;
+}
+
+#botoesOrdenacao {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% 10%;
+}
+
+#botoesOrdenacao button {
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgba(55, 0, 44, 0.517);
+  color: #ffffff;
+}
+
